@@ -1,0 +1,70 @@
+.aboutheader {
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+    top: 10%;
+    width: 100%;
+}
+
+.aboutdescription {
+    font-family: Arial, sans-serif;
+    position: relative;
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 10%;
+    width: 50%;
+}
+
+.aboutmaincontainer {
+    display: none;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    left: 0%;
+    top: 15%;
+    width: 100%;
+    height: 50%;
+}
+
+.aboutmainleftbutton {
+    position: absolute;
+    background: rgb(240, 240, 240);
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 5px;
+    left: 1%;
+    width: 5%;
+    height: 100%;
+
+}
+
+.aboutmainrightbutton {
+    position: absolute;
+    background: rgb(240, 240, 240);
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 5px;
+    right: 1%;
+    width: 5%;
+    height: 100%;
+}
+
+.aboutleftbutton {
+    transform: rotate(90deg);
+    width: 100%;
+}
+
+.aboutrightbutton {
+    transform: rotate(-90deg);
+    width: 100%;
+}
+
+.aboutmainimage {
+    position: relative;
+    height: 90%;
+}
