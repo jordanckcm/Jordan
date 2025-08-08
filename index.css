@@ -149,3 +149,80 @@ body {
     top: 26%;
     font-size: 20px;
 }
+
+.logincontainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    gap: 40px;
+    width: 80%;
+    height: 90%;
+}
+
+.grouped {
+    display: block;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+}
+
+.emailinput {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+    border-radius: 25px;
+    padding-left: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.passwordinput {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+    border-radius: 25px;
+    padding-left: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.logincontainertitle {
+    font-size: 50px;
+}
+
+.logincontainerdescription {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+.logincontainerloginbutton {
+    position: relative;
+    left: 5px;
+    border: none;
+    border-radius: 25px;
+    width: 30%;
+    height: 7%;
+}
+
+.logincontainerloginbuttondes {
+    background: black;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    border: 1px solid;
+}
+
+.logincontainerloginbuttondes:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+.labelforemail {
+    font-family: Arial, Helvetica, sans-serif;
+}
