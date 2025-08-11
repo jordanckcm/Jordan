@@ -5,6 +5,8 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     width: 100%;
     height: 100vh;
@@ -130,7 +132,7 @@ body {
 
 .constructioncontainer {
     position: absolute;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     width: 100%;
