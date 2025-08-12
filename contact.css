@@ -40,6 +40,10 @@
     width: 2.5%;
 }
 
+.iconsize:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
 
 .iconlinks {
     height: 100%;

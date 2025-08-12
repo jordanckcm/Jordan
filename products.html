@@ -6,6 +6,7 @@
     <title>Products</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="product.css">
+    <script src="index.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap">
 </head>
 <body>
@@ -23,27 +24,226 @@
         <a class="links" href="contact.html">Contact</a>
         <a class="links" href="services.html">Services</a>
         <div class="profilecontainer">
-            <button class="profilemain">
+            <button id="profilebuttontolog" class="profilemain" style="display: flex;">
                 <img class="profile" src="profilez.jpg">
                 <p>Jordan</p>
                 <img class="downarrow" src="angle-small-down.png">
             </button>
         </div>
+        <div id="logoutbuttoncontainer" class="logoutcontainer" style="display: none;">
+            <a class="logoutmainindex" href="index.html">
+                <button class="logoutmain">
+                    <img src="user-logout.png" class="logoutmainicon">
+                    Log out
+                </button>
+            </a>
+        </div>
     </div>
 
-    <div class="productdisplaycontainer">
-        <div class="productheader">Hordawn</div>
+    <div class="feauturedcontainer">
+        <img src="featured.jpg" class="featuredimage">
+        <div class="productdisplaycontainer">
+            <div class="productheader">Featured</div>
+            <div class="productdescription">Today we have a very drippy fit
+                on our vault, YES assassin creed merchhh babyyyy!
+            </div>
+            <a class="featuredbuybuttoncontainer" href="">
+                <div class="featuredbuybuttoncontainercontent">
+                <button class="featuredbuybutton">Buy Now</button>
+            </div>
+            </a>
+
+            
+        </div>
+        <div class="featuredimageoverlay"></div>
     </div>
 
     <div class="clothingtype">Upper Clothing</div>
-    <div class="upperclothingcontainer">
-        <div class="upperclothing"><img src="jacket1.jpg" class="insideupperclothing"></div>
-        <div class="upperclothing"></div>
-        <div class="upperclothing"></div>
-        <div class="upperclothing"></div>
-        <div class="upperclothing"></div>
-        <div class="upperclothing"></div>
+    <div class="productdescriptionlowertier">Looking for something sick? we got you covered.</div>
+    <br>
+    <div class="productshopbuttoncontainer">
+        <a href="#" class="productshopbuttoncontent">
+            <button class="productshopbutton">Shop</button>
+        </a>
     </div>
-    
+
+    <br>
+
+    <div class="mainproductcontainerupper">
+        <a class="mainproductcontainerupperimgcontainer" href="">
+            <img src="upperhoodie1.jpg" class="mainproductcontainerupperimg">
+        </a>
+        <a class="mainproductcontainerupperimgcontainer" href="">
+            <img src="upperhoodie2.jpg" class="mainproductcontainerupperimg">
+        </a>
+        <a class="mainproductcontainerupperimgcontainer" href="">
+            <img src="upperhoodie3.jpg" class="mainproductcontainerupperimg">
+        </a>
+        <a class="mainproductcontainerupperimgcontainer" href="">
+            <img src="uppershirt1.jpg" class="mainproductcontainerupperimg">
+        </a>
+    </div>
+
+    <div class="clothingtype">Recommended</div>
+    <div class="productdescriptionlowertier">Out for more? Here are the recommendations based on your activity.</div>
+    <div class="productshopbuttoncontainer">
+        <a href="#" class="productshopbuttoncontent">
+            <button class="productshopbutton">Shop</button>
+        </a>
+    </div>  
+
+    <div class="recommendedclothingcontainer">
+        <div class="recommendedclothingcontentcontainer">
+            <a href="" class="recommendedclothingproductcontainer">
+                <img src="upperhoodie1.jpg" class="recommendedclothingproductcontainerimg">
+                <div class="recommendedclothingproductcontainerdescription">
+                    <div class="recommendedclothingproductcontainertitle">Hells Embrace #1</div>
+                    <div class="recommendedclothingproductcontainersubtitle">One of our newer products.</div>
+                    <br>
+                    <br>
+                    <div class="recommendedclothingproductcontainerprice">$142.98</div>
+                </div>
+            </a>
+            
+            <a href="" class="recommendedclothingproductcontainer">
+                <img src="notbleached1.jpg" class="recommendedclothingproductcontainerimg">
+                <div class="recommendedclothingproductcontainerdescription">
+                    <div class="recommendedclothingproductcontainertitle">Freedom Jeans</div>
+                    <div class="recommendedclothingproductcontainersubtitle">One of our newer products.</div>
+                    <br>
+                    <br>
+                    <div class="recommendedclothingproductcontainerprice">$92.45</div>
+                </div>
+            </a>
+
+            <a href="" class="recommendedclothingproductcontainer">
+                <img src="bleached1.jpg" class="recommendedclothingproductcontainerimg">
+                <div class="recommendedclothingproductcontainerdescription">
+                    <div class="recommendedclothingproductcontainertitle">Wings of Faith</div>
+                    <div class="recommendedclothingproductcontainersubtitle">One of our newer products.</div>
+                    <br>
+                    <br>
+                    <div class="recommendedclothingproductcontainerprice">$102.29</div>
+                </div>
+            </a>
+
+            <a href="" class="recommendedclothingproductcontainer">
+                <img src="notbleached2.jpg" class="recommendedclothingproductcontainerimg">
+                <div class="recommendedclothingproductcontainerdescription">
+                    <div class="recommendedclothingproductcontainertitle">Edged</div>
+                    <div class="recommendedclothingproductcontainersubtitle">One of our newer products.</div>
+                    <br>
+                    <br>
+                    <div class="recommendedclothingproductcontainerprice">$98.99</div>
+                </div>
+            </a>
+
+            <a href="" class="recommendedclothingproductcontainer">
+                <img src="bleached2.jpg" class="recommendedclothingproductcontainerimg">
+                <div class="recommendedclothingproductcontainerdescription">
+                    <div class="recommendedclothingproductcontainertitle">Wyrm Jeans</div>
+                    <div class="recommendedclothingproductcontainersubtitle">One of our newer products.</div>
+                    <br>
+                    <br>
+                    <div class="recommendedclothingproductcontainerprice">$119.88</div>
+                </div>
+            </a>
+
+            <a href="" class="recommendedclothingproductcontainer">
+                <img src="bleachedcap1.jpg" class="recommendedclothingproductcontainerimg">
+                <div class="recommendedclothingproductcontainerdescription">
+                    <div class="recommendedclothingproductcontainertitle">Serrated Cap</div>
+                    <div class="recommendedclothingproductcontainersubtitle">One of our newer products.</div>
+                    <br>
+                    <br>
+                    <div class="recommendedclothingproductcontainerprice">$22.56</div>
+                </div>
+            </a>
+
+            <a href="" class="recommendedclothingproductcontainer">
+                <img src="bleached3.jpg" class="recommendedclothingproductcontainerimg">
+                <div class="recommendedclothingproductcontainerdescription">
+                    <div class="recommendedclothingproductcontainertitle">Sanctum Burn</div>
+                    <div class="recommendedclothingproductcontainersubtitle">One of our newer products.</div>
+                    <br>
+                    <br>
+                    <div class="recommendedclothingproductcontainerprice">$82.58</div>
+                </div>
+            </a>
+
+            <a href="" class="recommendedclothingproductcontainer">
+                <img src="bleached4.jpg" class="recommendedclothingproductcontainerimg">
+                <div class="recommendedclothingproductcontainerdescription">
+                    <div class="recommendedclothingproductcontainertitle">Divine Remains</div>
+                    <div class="recommendedclothingproductcontainersubtitle">One of our newer products.</div>
+                    <br>
+                    <br>
+                    <div class="recommendedclothingproductcontainerprice">$105.76</div>
+                </div>
+            </a>
+
+            <a href="" class="recommendedclothingproductcontainer">
+                <img src="painted1.jpg" class="recommendedclothingproductcontainerimg">
+                <div class="recommendedclothingproductcontainerdescription">
+                    <div class="recommendedclothingproductcontainertitle">Saintslayer</div>
+                    <div class="recommendedclothingproductcontainersubtitle">One of our newer products.</div>
+                    <br>
+                    <br>
+                    <div class="recommendedclothingproductcontainerprice">$122.99</div>
+                </div>
+            </a>
+
+            <a href="" class="recommendedclothingproductcontainer">
+                <img src="painted2.jpg" class="recommendedclothingproductcontainerimg">
+                <div class="recommendedclothingproductcontainerdescription">
+                    <div class="recommendedclothingproductcontainertitle">Slash Denim</div>
+                    <div class="recommendedclothingproductcontainersubtitle">One of our newer products.</div>
+                    <br>
+                    <br>
+                    <div class="recommendedclothingproductcontainerprice">$212.98</div>
+                </div>
+            </a>
+
+            <a href="" class="recommendedclothingproductcontainer">
+                <img src="printed1.jpg" class="recommendedclothingproductcontainerimg">
+                <div class="recommendedclothingproductcontainerdescription">
+                    <div class="recommendedclothingproductcontainertitle">Offstrike</div>
+                    <div class="recommendedclothingproductcontainersubtitle">One of our newer products.</div>
+                    <br>
+                    <br>
+                    <div class="recommendedclothingproductcontainerprice">$112.98</div>
+                </div>
+            </a>
+
+            <a href="" class="recommendedclothingproductcontainer">
+                <img src="printed2.jpg" class="recommendedclothingproductcontainerimg">
+                <div class="recommendedclothingproductcontainerdescription">
+                    <div class="recommendedclothingproductcontainertitle">Sinwing Top</div>
+                    <div class="recommendedclothingproductcontainersubtitle">One of our newer products.</div>
+                    <br>
+                    <br>
+                    <div class="recommendedclothingproductcontainerprice">$108.45</div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+    <div class="spacingbetweenfooterandstuff">
+    </div>
+
+
+    <div class="footerdetails">
+        <div class="footerandstuffcontainer">
+            <div class="foooterandstufftitle">About this webpage.</div>
+            <div class="foooterandstuffdescription">Hello so this is a little something i made for our programming class 
+                <br>
+                im a lil proud of it i'll be uploading a live page soon so stay tuned for that,
+                <br>
+                not only a live page I also want to make this a working page hopefully someday i can establish my own brand
+                <br>
+                I really want to make stuff work.
+            </div>
+        </div>
+    </div>
 </body>
 </html>

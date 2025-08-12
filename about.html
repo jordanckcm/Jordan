@@ -6,6 +6,7 @@
     <title>About</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="about.css">
+    <script src="index.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap">
 </head>
 <body>
@@ -18,27 +19,67 @@
         <a class="links" href="contact.html">Contact</a>
         <a class="links" href="services.html">Services</a>
         <div class="profilecontainer">
-            <button class="profilemain">
+            <button id="profilebuttontolog" class="profilemain" style="display: flex;">
                 <img class="profile" src="profilez.jpg">
                 <p>Jordan</p>
                 <img class="downarrow" src="angle-small-down.png">
             </button>
         </div>
+        <div id="logoutbuttoncontainer" class="logoutcontainer" style="display: none;">
+            <a class="logoutmainindex" href="index.html">
+                <button class="logoutmain">
+                    <img src="user-logout.png" class="logoutmainicon">
+                    Log out
+                </button>
+            </a>
+        </div>
     </div>
     <div class="aboutheader">About</div>
-    <div class="aboutdescription">Hello this is a small project 
-        I've been doing for our programming sub i'll be 
-        putting my logs and some other stuff here and keep 
+    <div class="aboutdescription">Hello this is a small project <br>
+        I've been doing for our programming sub i'll be
+        putting my logs and some other stuff here and keep  <br>
         everything clean cz why not
     </div>
-    <div class="aboutmaincontainer">
-        <button class="aboutmainleftbutton">
-            <img class="aboutleftbutton" src="angle-small-down.png">
-        </button>
-        <img class="aboutmainimage" src="bleach.png">
-        <button class="aboutmainrightbutton">
-            <img class="aboutrightbutton" src="angle-small-down.png">
-        </button>
+    
+    <br>
+
+    <div class="aboutlogsmaincontainer">
+        <div class="aboutlogsmaincontainercontent">
+            <br>
+            <div class="aboutlogsmaincontainercontentdivider">
+                <div class="aboutlogsmaincontainercontentupdate">Update 1.0</div>
+                <div class="aboutlogsmaincontainercontentupdatedescription">Products update - added some buttons for the shop
+                    some more a's for the products and some hover animations. There is also a featured uhh <br> something something 
+                    it's only for styles but ehh I'm gonna make it work in the future so stay tuned for that.
+                    <br>
+                    <br>
+                    Topbar - so the topbar has a working home products about etc, it also has a profile button now althought it's a 
+                    fixed profile since idk how <br> to make working accounts yet, but when you click on it there's also a logout feature 
+                    so that's pretty cool, it takes you back to the <br> index hehe I also added hover animations althought it's just an 
+                    underline, it gives some pretty cool changes.
+                    <br>
+                    <br>
+                    What I will be working on next - Contacts I have to add like I mean I already have <br> the icons ready and they're also 
+                    working buttons, so i'll just have to link them next and then that's br probably done, <br> for the Home tab i'll still have to think
+                    about it so uhhh yes. Also the services it's empty rn so maybe in the future <br> once I get more ideas I'm also gonna have to polish
+                    the contacts tab since it looks a lil messy n shi so yah, I might also add a working audio.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footerdetails">
+        <div class="footerandstuffcontainer">
+            <div class="foooterandstufftitle">About this webpage.</div>
+            <div class="foooterandstuffdescription">Hello so this is a little something i made for our programming class 
+                <br>
+                im a lil proud of it i'll be uploading a live page soon so stay tuned for that,
+                <br>
+                not only a live page I also want to make this a working page hopefully someday i can establish my own brand
+                <br>
+                I really want to make stuff work.
+            </div>
+        </div>
     </div>
 </body>
 </html>

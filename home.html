@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap">
 </head>
 <body>
@@ -22,12 +23,38 @@
         <a class="links" href="contact.html">Contact</a>
         <a class="links" href="services.html">Services</a>
         <div class="profilecontainer">
-            <button class="profilemain">
+            <button id="profilebuttontolog" class="profilemain" style="display: flex;">
                 <img class="profile" src="profilez.jpg">
                 <p>Jordan</p>
                 <img class="downarrow" src="angle-small-down.png">
             </button>
         </div>
+        <div id="logoutbuttoncontainer" class="logoutcontainer" style="display: none;">
+            <a class="logoutmainindex" href="index.html">
+                <button class="logoutmain">
+                    <img src="user-logout.png" class="logoutmainicon">
+                    Log out
+                </button>
+            </a>
+        </div>
     </div>
+
+    <footer>
+            <div class="footerdetails">
+        <div class="footerandstuffcontainer">
+            <div class="foooterandstufftitle">About this webpage.</div>
+            <div class="foooterandstuffdescription">Hello so this is a little something i made for our programming class 
+                <br>
+                im a lil proud of it i'll be uploading a live page soon so stay tuned for that,
+                <br>
+                not only a live page I also want to make this a working page hopefully someday i can establish my own brand
+                <br>
+                I really want to make stuff work.
+            </div>
+        </div>
+    </div>
+    </footer>
+
+
 </body>
 </html>
