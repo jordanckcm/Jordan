@@ -315,3 +315,23 @@ body {
 .seemorelinks:hover {
     color: rgb(55, 35, 235);
 }
+
+.relevantcomment {
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.amountofcomments {
+    margin-left: 2px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: gray;
+    font-style: italic;
+    font-size: 13px;
+}

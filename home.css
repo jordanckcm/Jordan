@@ -1,0 +1,95 @@
+.mainhomecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    width: 100%;
+    height: 800px;
+}
+
+.mainhomecontainercontent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 60%;
+    height: 100%;
+    overflow-x: auto;
+}
+
+.mainhomecontent {
+        width: 50%;
+        height: 600px;
+        box-shadow: 0px 0px 10px;
+}
+
+.contentheader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    background: rgb(224, 224, 224);
+}
+
+.profileicon {
+    margin-left: 10px;
+    width: 10%;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+.postdetailscontainer {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+}
+
+.profileusername {
+    margin-top: 10px;
+    color: black;
+}
+
+.postdate {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(163, 163, 163);
+    font-size: 15px;
+}
+
+.postdescription {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.posts {
+    object-fit: cover;
+    width: 100%;
+    height: 70%;
+}
+
+.interactionscontainer {
+    width: 100%;
+    height: 10%;
+}
+
+.posticons {
+    width: 100%;
+}
+
+.iconbuttons {
+    width: 10%;
+    width: 50px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.iconbuttons:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
