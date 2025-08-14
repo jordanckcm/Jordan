@@ -1,0 +1,82 @@
+.servicesmaincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+
+.servicesmaincontentcontainer {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+}
+
+.servicesmaincontent {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: transparent;
+    width: 49%;
+    height: 48%;
+    box-shadow: 0px 0px 10px;
+}
+
+.servicesmaincontent:hover {
+    color: black;
+    background: rgb(111, 233, 255);
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+.servicestitle {
+    margin-top: 60px;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.servicesdescription {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 15px;
+}
+
+.contenticon {
+    margin-left: 30px;
+    width: 20%;
+}
+
+.contenticonimage {
+    width: 100%;
+}
+
+.servicesmaincontentdesccontainer {
+    width: 80%;
+    height: 100%;
+}
+
+.servicesmaincontentdesccontainertitle {
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 60px;
+    font-size: 50px;
+}
+
+.servicesmaincontentdesccontainerdescription {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    width: 85%;
+    margin-left: 20px;
+    font-size: 20px;
+}
