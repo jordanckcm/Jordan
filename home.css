@@ -113,7 +113,7 @@ body {
     align-items: center;
     margin-top: 90px;
     width: 100%;
-    height: 830px;
+    height: 200px;
 }
 
 .homecontainermaincontent {
@@ -145,4 +145,29 @@ body {
     width: 100%;
     height: 200px;
     box-shadow: 0px 0px 10px;
+}
+
+.mainhomecontainerlog {
+    display: none;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 1200px;
+    width: 100%;
+    height: 600px;
+    box-shadow: 0px 0px 10px;
+}
+
+.mainhomecontainerlogcontent {
+    width: 80%;
+    height: 100%;
+    box-shadow: 0px 0px 10px;
+}
+
+.wallhavenwallpimg {
+    width: 100%;
+}
+
+.wallhavenwallpimg:hover {
+    box-shadow: 0px 0px 20px;
+    transition: 0.4s;
 }
