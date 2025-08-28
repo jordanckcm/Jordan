@@ -1,9 +1,9 @@
 body {
     height: 200vh;
-}
+} 
 
 .mainhomecontainer {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     margin-top: 120px;
@@ -170,4 +170,93 @@ body {
 .wallhavenwallpimg:hover {
     box-shadow: 0px 0px 20px;
     transition: 0.4s;
+}
+
+.mainuppercontainer {
+    width: 100%;
+    height: 600px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainuppercontainer-content {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+}
+
+
+.mainhomecontainer-content-content:nth-child(1):hover {
+    width: 50%;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s;
+    background-image: url(panel1ex.jpg);
+    background-size: cover;
+    
+}
+
+.mainhomecontainer-content-content:nth-child(2):hover {
+    width: 50%;
+    -webkit-text-fill-color: transparent;
+    background-image: url(panelnew2.jpg);
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.mainhomecontainer-content-content:nth-child(3):hover {
+    width: 50%;
+    -webkit-text-fill-color: transparent;
+    background-image: url(panel3ex.jpg);
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.mainhomecontainer-content-content:nth-child(4):hover {
+    width: 50%;
+    -webkit-text-fill-color: transparent;
+    background-image: url(panel4ex.jpg);
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.mainhomecontainer-content-content:nth-child(5):hover {
+    -webkit-text-fill-color: transparent;
+    width: 50%;
+    background-image: url(panel5ex.jpg);
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.mainhomecontainer-content-content:nth-child(6):hover {
+    width: 50%;
+    -webkit-text-fill-color: transparent;
+    background-image: url(panel6.jpg);
+    background-size: cover;
+    transition: 0.5s;
+}
+
+
+
+.mainhomecontainer-content-content {
+    font-size: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+    height: 100%;
+    box-shadow: 0px 0px 10px;
+    border-radius: 10px;
+    background: white;
+}
+
+.content-divider {
+    margin-top: 50px;
+    width: 100%;
+    background: black;
+    height: 10px;
 }
